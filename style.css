@@ -1,0 +1,50 @@
+aside{
+    width: 25%;
+    float: left;
+    color:aquamarine
+}
+h1{
+    text-align: center;
+}
+
+nav {
+    float: right;
+    width: 25%;
+}
+
+aside img{
+    width: 50%;
+    filter: blur(2px);
+}
+
+div img{
+    width: 30%;
+    filter: drop-shadow(10px 10px 15px black);
+}
+
+.spin:hover{
+    transform: rotate(360deg);
+    transition: 3s ease-in-out;
+}
+
+div{
+    width: 70%;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    clear: both;
+    height: 100px;
+    margin-top: 100px;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(236, 99, 122), rgb(210, 191, 168));
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
